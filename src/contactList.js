@@ -1,16 +1,16 @@
 import React from 'react';
-import contactItem from './contactItem';
+import ContactItem from './contactItem';
 
-function contactList ({contacts}) {
+function ContactList ({contacts}) {
     return (
         <div className='contact-list'>
             {
                 contacts.map((contact) => (
-                    <contactItem key={contact.id} {...contact}/>
+                    <ContactItem key={contact.id} {...contact}/>
                 ))
             }
         </div>
     )
 }
 
-export default contactList;
+export default ContactList;

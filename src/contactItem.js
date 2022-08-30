@@ -1,14 +1,14 @@
 import React from 'react';
-import contactItemBody from './contactItemBody';
-import contactItemImage from './contactItemImage';
+import ContactItemBody from './contactItemBody';
+import ContactItemImage from './contactItemImage';
 
-function contactItem ({imageUrl, name, tag}) {
+function ContactItem ({ imageUrl, name, tag }) {
     return (
         <div className='contact-item'>
-            <contactItemImage imageUrl={imageUrl}/>
-            <contactItemBody name={name} tag={tag}/>
+            <ContactItemImage imageUrl={imageUrl}/>
+            <ContactItemBody name={name} tag={tag}/>
         </div>
     );
 }
 
-export default contactItem;
+export default ContactItem;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function contactItemBody ({name, tag}) {
+function ContactItemBody ({name, tag}) {
     return (
         <div className='contact-item_body'>
             <h3 className='contact-item_title'>{name}</h3>
@@ -9,4 +9,4 @@ function contactItemBody ({name, tag}) {
     );
 }
 
-export default contactItemBody;
+export default ContactItemBody;
