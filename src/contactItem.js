@@ -1,6 +1,6 @@
 import React from 'react';
-import contactItemImage from './contactItemImage';
 import contactItemBody from './contactItemBody';
+import contactItemImage from './contactItemImage';
 
 function contactItem ({imageUrl, name, tag}) {
     return (
